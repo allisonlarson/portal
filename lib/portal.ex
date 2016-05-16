@@ -47,7 +47,7 @@ defmodule Portal do
     portal
   end
 
-  def push(source, destination) do
+  defp push(source, destination) do
     # See if we can pop data from source portal. If so, push the
     # popped data to the destination portal. Otherwise, do nothing.
     case Portal.Door.pop(source) do
