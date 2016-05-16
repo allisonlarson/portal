@@ -1,6 +1,6 @@
 # Portal
 
-**TODO: Add description**
+A small program that builds portals by shooting doors of different colors and transferring data between them.
 
 ## Installation
 
